@@ -10,3 +10,10 @@ plugins:
 
 aux_links:
   Template Repository: https://github.com/shango/shango.github.io
+
+just_the_docs:
+  collections:
+    pages:
+      output: true
+  navigation:
+    structure: nested
