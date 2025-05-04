@@ -1,8 +1,8 @@
 ---
 title: Multi-channel EXR files in Adobe After Effects 2005
 layout: page
-parent: Writing Samples
-nav_order: 2
+nav_order: 1
+has_children: true
 ---
 
 # Using Multi-channel EXR files in Adobe After Effects 2005 
