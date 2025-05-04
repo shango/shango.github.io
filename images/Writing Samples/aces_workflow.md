@@ -130,6 +130,7 @@ Steps to correctly interpret footage:
 
 Figure 4. Interpret Footage Dialogue Box - Color tab
 
+---
 
 ## Working with EXtractoR
 
