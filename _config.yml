@@ -8,8 +8,8 @@ url: https://shango.github.io
 plugins:
   - jekyll-remote-theme
 
-aux_links:
-  Template Repository: https://github.com/shango/shango.github.io
+# aux_links:
+#   Template Repository: https://github.com/shango/shango.github.io
 
 just_the_docs:
   navigation:
