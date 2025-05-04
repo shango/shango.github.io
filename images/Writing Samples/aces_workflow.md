@@ -1,7 +1,7 @@
 ---
 title: Multi-channel EXR files in Adobe After Effects 2005
 layout: page
-parent: UI Components
+parent: Writing Samples
 nav_order: 2
 ---
 
