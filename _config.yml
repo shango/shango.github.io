@@ -1,8 +1,12 @@
 title: Shannon Gold
 description: Technical Writing Samples
-theme: just-the-docs
+
+remote_theme: just-the-docs/just-the-docs
 
 url: https://shango.github.io
+
+plugins:
+  - jekyll-remote-theme
 
 aux_links:
   Template Repository: https://github.com/shango/shango.github.io
