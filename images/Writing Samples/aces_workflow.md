@@ -1,5 +1,5 @@
 ---
-title: ACES Workflow
+title: Multi-channel EXR files in Adobe After Effects 2005
 layout: page
 ---
 
