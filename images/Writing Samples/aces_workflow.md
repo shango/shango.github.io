@@ -1,6 +1,8 @@
 ---
 title: Multi-channel EXR files in Adobe After Effects 2005
 layout: page
+parent: UI Components
+nav_order: 2
 ---
 
 # Using Multi-channel EXR files in Adobe After Effects 2005 
