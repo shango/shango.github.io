@@ -4,7 +4,7 @@ layout: minimal
 nav_order: 0
 ---
 
-# Technical Writing Samples - Technical Writing Samples
+# Technical Writing Samples - Shannon Gold
 {: .no_toc }
 
 ## Table of Contents
