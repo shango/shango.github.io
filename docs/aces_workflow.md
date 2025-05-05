@@ -38,7 +38,9 @@ By the end, you’ll be able to:
 32-bit multi-channel EXR files are the industry standard for high-dynamic-range scene-linear image data. They support multiple render passes in a single file, 32-bit floating-point color, and lossless compression.
 
 {: .highlight }
-For more information, see the [OpenEXR documentation](https://openexr.com/en/latest/).
+>
+>For more information, see the [OpenEXR documentation](https://openexr.com/en/latest/).
+>
 
 ### The After Effects built-in OCIO color engine
 
