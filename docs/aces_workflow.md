@@ -39,7 +39,9 @@ By the end, you’ll be able to:
 
 {: .highlight }
 >
+>
 > For more information, see the [OpenEXR documentation](https://openexr.com/en/latest/).
+>
 >
 
 ### The After Effects built-in OCIO color engine
