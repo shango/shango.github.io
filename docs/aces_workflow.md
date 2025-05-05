@@ -1,6 +1,7 @@
 ---
-layout: none
+layout: base
 ---
+
 # Using Multi-channel EXR files in Adobe After Effects 2005 
 
 ## Introduction 
