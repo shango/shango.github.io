@@ -4,12 +4,10 @@ layout: minimal
 nav_order: 0
 ---
 
-# Shannon Gold
-## Technical Writing Samples
+## Shannon Gold
+Technical Writing Samples
 {: .no_toc }
 
-## Table of Contents
-{: .no_toc .text-delta }
 
 1. TOC
 {:toc}
