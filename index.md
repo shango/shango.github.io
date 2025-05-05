@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 minima:
   nav_pages:
 ---
