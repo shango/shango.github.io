@@ -22,6 +22,7 @@ repository: shango/shango.github.io # for github-metadata
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-github-metadata
 
 remote_theme: just-the-docs/just-the-docs
 markdown: kramdown
