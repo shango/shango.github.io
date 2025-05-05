@@ -1,11 +1,19 @@
 ---
 title: Home
-layout: home
+layout: minimal
 nav_order: 0
 ---
 
+# In-Page Navigation
+{: .no_toc }
 
-<h1 style="margin-bottom: -50;"><b>Technical Writing Samples</b></h1>
-## Shannon Gold <br />
-[shannon.gold@gmail.com](mailto:shannon.gold@gmail.com) <br />|phone: 212.361.9633
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+# Technical Writing Samples - Technical Writing Samples
+[shannon.gold@gmail.com](mailto:shannon.gold@gmail.com) <br />
+phone: 212.361.9633
 [Linkedin](https://www.linkedin.com/in/sggold/) <br />
