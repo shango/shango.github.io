@@ -39,8 +39,6 @@ By the end, you’ll be able to:
 
 For more information, see the [OpenEXR documentation](https://openexr.com/en/latest/).
 
----
-
 ### The After Effects built-in OCIO color engine
 
 After Effects includes a built-in OpenColorIO (OCIO) color engine, which provides a complete color management solution for motion picture workflows.
