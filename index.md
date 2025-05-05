@@ -5,7 +5,7 @@ nav_order: 0
 ---
 
 # Shannon Gold
-Technical Writing Samples
+## Technical Writing Samples
 {: .no_toc }
 
 ---
