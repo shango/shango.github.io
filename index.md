@@ -1,6 +1,7 @@
 ---
-layout: none
+layout: base
 ---
+
 ## Shannon Gold
 {: .no_toc }
 Technical Writing Samples
