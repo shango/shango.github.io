@@ -13,6 +13,7 @@ nav_order: 0
 1. TOC
 {:toc}
 
+## Contact Information
 [shannon.gold@gmail.com](mailto:shannon.gold@gmail.com) <br />
-phone: 212.361.9633
-[Linkedin](https://www.linkedin.com/in/sggold/) <br />
+phone: 212.361.9633 <br />
+[Linkedin](https://www.linkedin.com/in/sggold/)
