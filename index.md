@@ -1,9 +1,6 @@
 ---
-title: Home
-layout: minimal
-nav_order: 0
+layout: none
 ---
-
 ## Shannon Gold
 {: .no_toc }
 Technical Writing Samples
