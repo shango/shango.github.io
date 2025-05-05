@@ -41,6 +41,7 @@ For more information, see the [OpenEXR documentation](https://openexr.com/en/lat
 
 After Effects includes a built-in OpenColorIO (OCIO) color engine, which provides a complete color management solution for motion picture workflows.
 
+
 For an in-depth overview, visit [OpenColorIO](https://opencolorio.org/).
 
 OCIO will use the ACES to handle all color transformations to do the heavy lifting of keeping color spaces consistent for you from file import, through compositing and on to file rendering.
@@ -67,12 +68,11 @@ To enable an ACES workflow in After Effects, you must first disable Adobe’s na
    
 6. Under **Working Color Space**, select:  
 
-   **compositing_linear: ACES - ACEScg**
-   (This sets the compositor to ACES version of linear light for the project)
+   **compositing_linear: ACES - ACEScg** (This sets the compositor to ACES version of linear light for the project)
 
 7. In the **Display Color Space** section, choose either **ACES/sRGB** or **ACES/Rec.709** depending on your monitor's color profile.
    
-
+<br />
 ![Project Settings color tab](/images/proj_settings_color_tab.png)
 
 Figure 1. Project Settings dialog box - Color tab
@@ -90,7 +90,7 @@ Next, under **Import As**, select: **Composition – Retain Layer Sizes**
 Click **Import** to bring the sequence into your After Effects project.
 
 
-
+<br />
 ![Import dialog](/images/import_dialogue_01.png)
 
 Figure 2. Import File dialogue box
@@ -106,7 +106,7 @@ In the **Import Options** dialog box select:
 5. **Create Contact Sheet**
 
 
-
+<br />
 ![Import dialog 2](/images/import_dialogue_02.png)
 
 Figure 3. Import Options Dialogue Box
@@ -129,12 +129,10 @@ Steps to correctly interpret footage:
 
 
 {: .note-title }
->
 > For 8- or 16-bit files with unknown color profiles, you may need to experiment. Try **ACES/sRGB** or **ACES/Rec.709** and select whichever gives the most accurate result.*
->
 
 
-
+<br />
 ![Interpret footage](/images/interpret_footage.png)
 
 Figure 4. Interpret Footage Dialogue Box - Color tab
@@ -150,7 +148,7 @@ Each pre-composed layer will use the After Effects **EXtractoR** plugin to isola
 For an in-depth overview, visit this document [Adobe After Effects, Included Third Party Effects](https://helpx.adobe.com/after-effects/using/3d-channel-effects.html)
 
 
-
+<br />
 ![ExtractoR plugin](/images/Extractor_plugin.png)
 
 Figure 6. Effects panel view - EXtractoR plugin.
@@ -160,7 +158,7 @@ Figure 6. Effects panel view - EXtractoR plugin.
 **Double click** the Contact Sheet composition in your Project Pane.  In the Project Viewport, you will see a thumbnail representation of each layer in your EXR Files (see Figure 5).
 
 
-
+<br />
 ![Contact sheet](/images/contact_sheet.png)
 
 Figure 5. Contact sheet composition view
@@ -186,7 +184,7 @@ In the Output Module settings, go to the **Color** tab and select the appropriat
 4. Start the render.
    
 
-
+<br />
 ![Output module](/images/output_module.png)
 
 Figure 7. Output module - color tab
