@@ -16,4 +16,4 @@ nav_order: 0
 ## Contact Information
 [shannon.gold@gmail.com](mailto:shannon.gold@gmail.com) <br />
 phone: 212.361.9633 <br />
-[Linkedin](https://www.linkedin.com/in/sggold/)
+[Linkedin Page](https://www.linkedin.com/in/sggold/)
