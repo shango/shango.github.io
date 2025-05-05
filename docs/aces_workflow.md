@@ -79,7 +79,7 @@ To enable an ACES workflow in After Effects, you must first disable Adobe’s na
 
 5. In the **Display Color Space** section, choose either **ACES/sRGB** or **ACES/Rec.709** depending on your monitor's color profile.
 
-[Project Settings color tab](/images/proj_settings_color_tab.png)
+![Project Settings color tab](/images/proj_settings_color_tab.png)
 
 Figure 1. Project Settings dialog box - Color tab
 
@@ -95,7 +95,7 @@ Next, under **Import As**, select: **Composition – Retain Layer Sizes**
 
 Click **Import** to bring the sequence into your After Effects project.
 
-[Import dialog](/images/import_dialogue_01.png)
+![Import dialog](/images/import_dialogue_01.png)
 
 Figure 2. Import File dialogue box
 
@@ -107,7 +107,7 @@ In the **Import Options** dialog box select:
 2. **Pre-compose Layers**
 3. **Create Contact Sheet**
 
-[Import dialog 2](/images/import_dialogue_02.png)
+![Import dialog 2](/images/import_dialogue_02.png)
 
 Figure 3. Import Options Dialogue Box
 
@@ -145,14 +145,14 @@ Each pre-composed layer will use the After Effects **EXtractoR** plugin to isola
 {: .highlight }
 > For an in-depth overview, visit this document [Adobe After Effects, Included Third Party Effects](https://helpx.adobe.com/after-effects/using/3d-channel-effects.html)
 
-[ExtractoR plugin](/images/Extractor_plugin.png)
+![ExtractoR plugin](/images/Extractor_plugin.png)
 
 Figure 6. Effects panel view - EXtractoR plugin.
 
 
 **Double click** the Contact Sheet composition in your Project Pane.  In the Project Viewport, you will see a thumbnail representation of each layer in your EXR Files (see Figure 5). 
 
-[Contact sheet](/images/contact_sheet.png)
+![Contact sheet](/images/contact_sheet.png)
 
 Figure 5. Contact sheet composition view
 
@@ -176,7 +176,7 @@ In the Output Module settings, go to the **Color** tab and select the appropriat
 
 4. Start the render.
 
-[Output module](/images/output_module.png)
+![Output module](/images/output_module.png)
 
 Figure 7. Output module - color tab
 
