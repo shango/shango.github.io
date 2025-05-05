@@ -10,7 +10,7 @@ Technical Writing Samples
 
 ---
 
-## Table of Contents
+## Contents
 {: .no_toc .text-delta }
 
 1. [Using Multi-channel EXR files in Adobe After Effects 2005](docs/aces_workflow)
