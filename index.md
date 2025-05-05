@@ -4,7 +4,7 @@ layout: minimal
 nav_order: 0
 ---
 
-# In-Page Navigation
+# Technical Writing Samples - Technical Writing Samples
 {: .no_toc }
 
 ## Table of Contents
@@ -13,7 +13,6 @@ nav_order: 0
 1. TOC
 {:toc}
 
-# Technical Writing Samples - Technical Writing Samples
 [shannon.gold@gmail.com](mailto:shannon.gold@gmail.com) <br />
 phone: 212.361.9633
 [Linkedin](https://www.linkedin.com/in/sggold/) <br />
