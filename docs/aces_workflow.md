@@ -7,7 +7,6 @@ has_children: false
 
 # Using Multi-channel EXR files in Adobe After Effects 2005 
 
-
 ## Introduction 
 
 This guide provides a quick-start workflow for integrating multi-channel 32-bit EXR files into Adobe After Effects using an Academy Color Encoding System (ACES) pipeline. It explains how to configure After Effects for ACES color management, interpret EXR footage correctly, composite in a 32-bit linear color space, and export while preserving color fidelity.
@@ -39,17 +38,19 @@ By the end, you’ll be able to:
 32-bit multi-channel EXR files are the industry standard for high-dynamic-range scene-linear image data. They support multiple render passes in a single file, 32-bit floating-point color, and lossless compression.
 
 For more information, see the [OpenEXR documentation](https://openexr.com/en/latest/).
+
 ### The After Effects built-in OCIO color engine
 
 After Effects includes a built-in OpenColorIO (OCIO) color engine, which provides a complete color management solution for motion picture workflows.
 
-For an in-depth overview, visit [OpenColorIO](https://opencolorio.org/).
+{: .highlight }
+ For an in-depth overview, visit [OpenColorIO](https://opencolorio.org/).
 
 OCIO will use the ACES to handle all color transformations to do the heavy lifting of keeping color spaces consistent for you from file import, through compositing and on to file rendering.
 
 ACES is a standardized color management framework designed to ensure consistency across digital imaging workflows. It enables accurate color interchange, supports complex compositing pipelines, and facilitates the creation of high-fidelity masters for distribution and archival.
 
-{: .important }
+{: .highlight }
 > To dive deeper into ACES, visit the [ACES Central website](https://acescentral.com/).
 
 ---
@@ -77,7 +78,7 @@ To enable an ACES workflow in After Effects, you must first disable Adobe’s na
 
 5. In the **Display Color Space** section, choose either **ACES/sRGB** or **ACES/Rec.709** depending on your monitor's color profile.
 
-![Project Settings color tab](/images/proj_settings_color_tab.png)
+[Project Settings color tab](/images/proj_settings_color_tab.png)
 
 Figure 1. Project Settings dialog box - Color tab
 
@@ -139,7 +140,8 @@ The **EXtractoR** plugin allows control of which layers and channels are display
 
 Each pre-composed layer will use the After Effects **EXtractoR** plugin to isolate individual channels and layers from the EXR file.
 
-For an in-depth overview, visit this document [Adobe After Effects, Included Third Party Effects](https://helpx.adobe.com/after-effects/using/3d-channel-effects.html)
+{: .highlight }
+> For an in-depth overview, visit this document [Adobe After Effects, Included Third Party Effects](https://helpx.adobe.com/after-effects/using/3d-channel-effects.html)
 
 ![ExtractoR plugin](/images/Extractor_plugin.png)
 
