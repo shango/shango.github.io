@@ -8,8 +8,6 @@ nav_order: 0
 ## Technical Writing Samples
 {: .no_toc }
 
----
-
 ## Table of Contents
 {: .no_toc .text-delta }
 
