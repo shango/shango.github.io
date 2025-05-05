@@ -5,9 +5,13 @@ nav_order: 0
 ---
 
 ## Shannon Gold
-Technical Writing Samples
 {: .no_toc }
+Technical Writing Samples
 
+---
+
+## Table of Contents
+{: .no_toc .text-delta }
 
 1. TOC
 {:toc}
@@ -15,6 +19,7 @@ Technical Writing Samples
 ---
 
 ## Contact Information
+{: .no_toc .text-delta }
 [shannon.gold@gmail.com](mailto:shannon.gold@gmail.com) <br />
 phone: 212.361.9633 <br />
 [Linkedin Page](https://www.linkedin.com/in/sggold/)
