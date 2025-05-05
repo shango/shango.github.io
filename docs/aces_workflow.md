@@ -58,11 +58,11 @@ To enable an ACES workflow in After Effects, you must first disable Adobe’s na
 
 2. In the Project Settings window, select the **Color** tab.
 
-3. Color Engine to **OCIO color managed**.
+3. Change the Color Engine to **OCIO color managed**.
 
-4. OCIO Configuration to **ACES 1.2**.
+4. Set the OCIO Configuration to **ACES 1.2**.
 
-5. Bit Depth to **32 bits per channel (float)**.
+5. Ensure that the Bit Depth is set to **32 bits per channel (float)**.
    
 6. Under **Working Color Space**, select:  
 
