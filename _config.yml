@@ -7,6 +7,4 @@ plugins:
 remote_theme: "jekyll/minima@1e8a445"
 
 url: https://shango.github.io
-
-# aux_links:
-#   Template Repository: https://github.com/shango/shango.github.io
+markdown: kramdown
