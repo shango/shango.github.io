@@ -13,10 +13,10 @@ Technical Writing Samples
 ## Table of Contents
 {: .no_toc .text-delta }
 
----
-
 1. TOC
 {:toc}
+
+---
 
 ## Contact Information
 [shannon.gold@gmail.com](mailto:shannon.gold@gmail.com) <br />
