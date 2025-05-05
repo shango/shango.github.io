@@ -3,7 +3,7 @@ title: Home
 layout: minimal
 ---
 
-## Shannon Gold
+# Shannon Gold
 Technical Writing Samples
 
 ---
