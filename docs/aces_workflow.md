@@ -70,6 +70,7 @@ To enable an ACES workflow in After Effects, you must first disable Adobe’s na
    (This sets the compositor to ACES version of linear light for the project)
 
 7. In the **Display Color Space** section, choose either **ACES/sRGB** or **ACES/Rec.709** depending on your monitor's color profile.
+   
 
 ![Project Settings color tab](/images/proj_settings_color_tab.png)
 
@@ -86,7 +87,7 @@ In the Import dialog (see Figure 2), select the first frame of your EXR sequence
 Next, under **Import As**, select: **Composition – Retain Layer Sizes**
 
 Click **Import** to bring the sequence into your After Effects project.
-
+<br />
 
 ![Import dialog](/images/import_dialogue_01.png)
 
