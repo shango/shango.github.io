@@ -45,14 +45,12 @@ For more information, see the [OpenEXR documentation](https://openexr.com/en/lat
 
 After Effects includes a built-in OpenColorIO (OCIO) color engine, which provides a complete color management solution for motion picture workflows.
 
-{: .highlight }
- For an in-depth overview, visit [OpenColorIO](https://opencolorio.org/).
+For an in-depth overview, visit [OpenColorIO](https://opencolorio.org/).
 
 OCIO will use the ACES to handle all color transformations to do the heavy lifting of keeping color spaces consistent for you from file import, through compositing and on to file rendering.
 
 ACES is a standardized color management framework designed to ensure consistency across digital imaging workflows. It enables accurate color interchange, supports complex compositing pipelines, and facilitates the creation of high-fidelity masters for distribution and archival.
 
-{: .highlight }
 To dive deeper into ACES, visit the [ACES Central website](https://acescentral.com/).
 
 ---
