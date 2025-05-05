@@ -3,6 +3,7 @@ description: Technical Writing Samples
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 remote_theme: just-the-docs/just-the-docs
 
