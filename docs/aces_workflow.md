@@ -1,10 +1,6 @@
 ---
-title: Multi-channel 32-bit EXR files in Adobe After Effects 2005
-layout: minimal
-nav_order: 1
-has_children: false
+layout: none
 ---
-
 # Using Multi-channel EXR files in Adobe After Effects 2005 
 
 ## Introduction 
