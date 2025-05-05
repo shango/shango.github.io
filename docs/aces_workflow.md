@@ -123,9 +123,10 @@ Steps to correctly interpret footage:
 
 4. Repeat for all source clips.
 
-
-For 8- or 16-bit files with unknown color profiles, you may need to experiment. Try **ACES/sRGB** or **ACES/Rec.709** and select whichever gives the most accurate result.*
-
+{: .note-title }
+>
+> For 8- or 16-bit files with unknown color profiles, you may need to experiment. Try **ACES/sRGB** or **ACES/Rec.709** and select whichever gives the most accurate result.*
+>
 
 ![Interpret footage](/images/interpret_footage.png)
 
