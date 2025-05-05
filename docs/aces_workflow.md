@@ -37,12 +37,9 @@ By the end, you’ll be able to:
 
 32-bit multi-channel EXR files are the industry standard for high-dynamic-range scene-linear image data. They support multiple render passes in a single file, 32-bit floating-point color, and lossless compression.
 
-{: .highlight }
->
->
-> For more information, see the [OpenEXR documentation](https://openexr.com/en/latest/).
->
->
+For more information, see the [OpenEXR documentation](https://openexr.com/en/latest/).
+
+---
 
 ### The After Effects built-in OCIO color engine
 
@@ -131,7 +128,7 @@ Steps to correctly interpret footage:
 
 4. Repeat for all source clips.
 
-{: .note }
+
 For 8- or 16-bit files with unknown color profiles, you may need to experiment. Try **ACES/sRGB** or **ACES/Rec.709** and select whichever gives the most accurate result.*
 
 ![Interpret footage](/images/interpret_footage.png)
@@ -146,13 +143,11 @@ The **EXtractoR** plugin allows control of which layers and channels are display
 
 Each pre-composed layer will use the After Effects **EXtractoR** plugin to isolate individual channels and layers from the EXR file.
 
-{: .highlight }
-> For an in-depth overview, visit this document [Adobe After Effects, Included Third Party Effects](https://helpx.adobe.com/after-effects/using/3d-channel-effects.html)
+For an in-depth overview, visit this document [Adobe After Effects, Included Third Party Effects](https://helpx.adobe.com/after-effects/using/3d-channel-effects.html)
 
 ![ExtractoR plugin](/images/Extractor_plugin.png)
 
 Figure 6. Effects panel view - EXtractoR plugin.
-
 
 **Double click** the Contact Sheet composition in your Project Pane.  In the Project Viewport, you will see a thumbnail representation of each layer in your EXR Files (see Figure 5). 
 
