@@ -58,20 +58,18 @@ To enable an ACES workflow in After Effects, you must first disable Adobe’s na
 
 2. In the Project Settings window, select the **Color** tab.
 
-3. In the **Color Management** section, set the following:
+3. Color Engine to **OCIO color managed**.
 
-	1. Color Engine to **OCIO color managed**.
+4. OCIO Configuration to **ACES 1.2**.
 
-	2. OCIO Configuration to **ACES 1.2**.
-
-	3. Bit Depth to **32 bits per channel (float)**.
+5. Bit Depth to **32 bits per channel (float)**.
    
-4. Under **Working Color Space**, select:  
+6. Under **Working Color Space**, select:  
 
    **compositing_linear: ACES - ACEScg**
    (This sets the compositor to ACES version of linear light for the project)
 
-5. In the **Display Color Space** section, choose either **ACES/sRGB** or **ACES/Rec.709** depending on your monitor's color profile.
+7. In the **Display Color Space** section, choose either **ACES/sRGB** or **ACES/Rec.709** depending on your monitor's color profile.
 
 ![Project Settings color tab](/images/proj_settings_color_tab.png)
 
@@ -98,8 +96,10 @@ After selecting your files and clicking **Import**, you'll see the **Import Opti
 In the **Import Options** dialog box select: 
 
 1. Import As: **Composition**
-2. **Pre-compose Layers**
-3. **Create Contact Sheet**
+   
+3. **Pre-compose Layers**
+
+5. **Create Contact Sheet**
 
 ![Import dialog 2](/images/import_dialogue_02.png)
 
