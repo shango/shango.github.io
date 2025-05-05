@@ -8,3 +8,12 @@ remote_theme: "jekyll/minima@1e8a445"
 
 url: https://shango.github.io
 markdown: kramdown
+
+minima:
+  social_links:
+    - title: Github 
+      icon: github
+      url: "https://github.com/shango"
+    - title: Shannon Gold on Linkedin
+      icon: Linkedin
+      url: "https://www.linkedin.com/in/sggold/"
