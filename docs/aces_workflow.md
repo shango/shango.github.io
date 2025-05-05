@@ -87,7 +87,8 @@ In the Import dialog (see Figure 2), select the first frame of your EXR sequence
 Next, under **Import As**, select: **Composition – Retain Layer Sizes**
 
 Click **Import** to bring the sequence into your After Effects project.
-<br />
+
+
 
 ![Import dialog](/images/import_dialogue_01.png)
 
@@ -102,7 +103,8 @@ In the **Import Options** dialog box select:
 3. **Pre-compose Layers**
 
 5. **Create Contact Sheet**
-   
+
+
 
 ![Import dialog 2](/images/import_dialogue_02.png)
 
@@ -124,10 +126,13 @@ Steps to correctly interpret footage:
 
 4. Repeat for all source clips.
 
+
 {: .note-title }
 >
 > For 8- or 16-bit files with unknown color profiles, you may need to experiment. Try **ACES/sRGB** or **ACES/Rec.709** and select whichever gives the most accurate result.*
 >
+
+
 
 ![Interpret footage](/images/interpret_footage.png)
 
@@ -144,11 +149,15 @@ Each pre-composed layer will use the After Effects **EXtractoR** plugin to isola
 For an in-depth overview, visit this document [Adobe After Effects, Included Third Party Effects](https://helpx.adobe.com/after-effects/using/3d-channel-effects.html)
 
 
+
 ![ExtractoR plugin](/images/Extractor_plugin.png)
 
 Figure 6. Effects panel view - EXtractoR plugin.
 
+
+
 **Double click** the Contact Sheet composition in your Project Pane.  In the Project Viewport, you will see a thumbnail representation of each layer in your EXR Files (see Figure 5).
+
 
 
 ![Contact sheet](/images/contact_sheet.png)
@@ -175,6 +184,7 @@ In the Output Module settings, go to the **Color** tab and select the appropriat
 
 4. Start the render.
    
+
 
 ![Output module](/images/output_module.png)
 
