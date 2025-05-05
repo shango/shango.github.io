@@ -49,7 +49,8 @@ OCIO will use the ACES to handle all color transformations to do the heavy lifti
 
 ACES is a standardized color management framework designed to ensure consistency across digital imaging workflows. It enables accurate color interchange, supports complex compositing pipelines, and facilitates the creation of high-fidelity masters for distribution and archival.
 
-To dive deeper into ACES, visit the [ACES Central website](https://acescentral.com/).
+{: .important }
+> To dive deeper into ACES, visit the [ACES Central website](https://acescentral.com/).
 
 ---
 
