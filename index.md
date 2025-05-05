@@ -1,7 +1,6 @@
 ---
-layout: page
-minima:
-  nav_pages:
+title: Home
+layout: minimal
 ---
 
 ## Shannon Gold
