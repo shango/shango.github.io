@@ -24,11 +24,9 @@ plugins:
   - jekyll-include-cache
   - jekyll-github-metadata
   - jekyll-sitemap
-
-# Social Icons
-gems:
   - jekyll_social_icons
 
+# Social Icons
 socials:
   linkedin: https://linkedin.com/sggold
   github: https://github.com/shango
