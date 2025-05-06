@@ -2,6 +2,7 @@
 title: Using Multi-channel EXR Files in Adobe After Effects 2005
 layout: minimal
 ---
+
 {: .no_toc }
 # Using Multi-channel EXR Files in Adobe After Effects 2005
 
@@ -11,6 +12,9 @@ layout: minimal
 This guide provides a quick-start workflow for integrating multi-channel 32-bit OpenEXR (EXR) files into Adobe After Effects using an Academy Color Encoding System (ACES) pipeline. It explains how to configure After Effects for ACES color management, interpret EXR footage correctly, composite in a 32-bit linear color space, and export while preserving color fidelity.
 
 ---
+
+## Contents
+{: .no_toc .text-delta }
 
 1. TOC
 {:toc}
