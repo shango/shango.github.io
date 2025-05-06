@@ -18,3 +18,6 @@ Technical Writing Samples
 [shannon.gold@gmail.com](mailto:shannon.gold@gmail.com) <br />
 phone: 212.361.9633 <br />
 [Linkedin Page](https://www.linkedin.com/in/sggold/)
+
+
+<i class='fa fa-github'></i>
