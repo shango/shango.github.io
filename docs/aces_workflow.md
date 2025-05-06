@@ -13,7 +13,7 @@ This guide provides a quick-start workflow for integrating multi-channel 32-bit 
 
 ---
 
-## Contents
+## Contents:
 {: .no_toc .text-delta }
 
 1. TOC
