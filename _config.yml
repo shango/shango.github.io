@@ -118,7 +118,7 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
+  "Shannon Gold - Technical Writing Samples":
     - "https://github.com/shango/shango.github.io"
 
 # Makes Aux links open in a new tab. Default is false
