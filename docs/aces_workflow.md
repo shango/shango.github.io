@@ -84,7 +84,6 @@ To enable an ACES workflow in After Effects, you must first disable Adobe’s na
    
 <br />
 ![Project Settings color tab](/images/proj_settings_color_tab.png)
-
 Figure 1. Project Settings dialog box - Color tab
 
 ---
@@ -102,7 +101,6 @@ Click **Import** to bring the sequence into your After Effects project.
 
 <br />
 ![Import dialog](/images/import_dialogue_01.png)
-
 Figure 2. Import File dialogue box
 
 After selecting your files and clicking **Import**, you'll see the **Import Options** dialog (see Figure 3). A recommended workflow is to import the footage as a composition, automatically pre-compose the layers, and generate a contact sheet—a composition that displays all layers from the EXR sequence for easy preview.
@@ -118,7 +116,6 @@ In the **Import Options** dialog box select:
 
 <br />
 ![Import dialog 2](/images/import_dialogue_02.png)
-
 Figure 3. Import Options Dialogue Box
 
 ---
@@ -144,7 +141,6 @@ Steps to correctly interpret footage:
 
 <br />
 ![Interpret footage](/images/interpret_footage.png)
-
 Figure 4. Interpret Footage Dialogue Box - Color tab
 
 ---
@@ -160,7 +156,6 @@ For an in-depth overview, visit this document [Adobe After Effects, Included Thi
 
 <br />
 ![ExtractoR plugin](/images/Extractor_plugin.png)
-
 Figure 6. Effects panel view - EXtractoR plugin.
 
 
@@ -170,7 +165,6 @@ Figure 6. Effects panel view - EXtractoR plugin.
 
 <br />
 ![Contact sheet](/images/contact_sheet.png)
-
 Figure 5. Contact sheet composition view
 
 ---
@@ -196,7 +190,6 @@ In the Output Module settings, go to the **Color** tab and select the appropriat
 
 <br />
 ![Output module](/images/output_module.png)
-
 Figure 7. Output module - color tab
 
 ---
