@@ -19,5 +19,4 @@ Technical Writing Samples
 phone: 212.361.9633 <br />
 [Linkedin Page](https://www.linkedin.com/in/sggold/)
 
-
-<i class='fa fa-github'></i>
+{% social_icons linkedin github %}
