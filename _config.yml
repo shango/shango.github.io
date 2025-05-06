@@ -24,12 +24,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-github-metadata
   - jekyll-sitemap
-  - jekyll_social_icons
-
-# Social Icons
-socials:
-  linkedin: https://linkedin.com/sggold
-  github: https://github.com/shango
 
 remote_theme: just-the-docs/just-the-docs
 markdown: kramdown
