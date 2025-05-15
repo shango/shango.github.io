@@ -1,13 +1,15 @@
 ---
-title: Using Multi-channel EXR Files in Adobe After Effects 2005
+title: Multi-channel EXR Files in Adobe After Effects 2025
 layout: minimal
 ---
 
 {: .no_toc }
-# Using Multi-channel EXR Files in Adobe After Effects 2005
+# Multi-channel EXR Files in Adobe After Effects 2025: Importing, Compositing, and Exporting
 
 {: .no_toc }
 ## Introduction 
+
+OpenEXR (EXR) is a professional image format that supports high-dynamic-range color and multi-pass rendering, allowing artists to store and access multiple render layers in a single file.
 
 This guide provides a quick-start workflow for integrating multi-channel 32-bit OpenEXR (EXR) files into Adobe After Effects using an Academy Color Encoding System (ACES) pipeline. It explains how to configure After Effects for ACES color management, interpret EXR footage correctly, composite in a 32-bit linear color space, and export while preserving color fidelity.
 
@@ -32,11 +34,15 @@ The workflow is intended for use in professional visual effects pipelines and as
 
 This guide steps you through implementing a color-managed workflow in After Effects using multi-channel EXR files.
 
-By the end, you’ll be able to:
-- Import and separate multi-channel EXRs.
-- Apply ACES color transforms using OCIO.
-- Composite in 32-bit linear space with confidence.
-- Export EXRs or video while preserving color accuracy.
+By the end of this guide, you’ll be able to:
+
+- Set up your After Effects environment for 32-bit EXR workflows
+
+- Apply ACES color transforms using OCIO to maintain color accuracy
+
+- Access and individual render passes from EXR files for compositing
+
+- Render to EXRs while preserving consistent color fidelity
 
 ---
 
@@ -54,7 +60,7 @@ After Effects includes a built-in OpenColorIO (OCIO) color engine, which provide
 
 For an in-depth overview, visit [OpenColorIO](https://opencolorio.org/).
 
-OCIO will use the ACES to handle all color transformations to do the heavy lifting of keeping color spaces consistent for you from file import, through compositing and on to file rendering.
+OCIO handles all color transformations, maintaining color consistency from import through compositing to final output.
 
 ACES is a standardized color management framework designed to ensure consistency across digital imaging workflows. It enables accurate color interchange, supports complex compositing pipelines, and facilitates the creation of high-fidelity masters for distribution and archival.
 
@@ -64,7 +70,7 @@ To dive deeper into ACES, visit the [ACES Central website](https://acescentral.c
 
 ## Setting Up the After Effects Project
 
-To enable an ACES workflow in After Effects, you must first disable Adobe’s native color management and use OCIO color management (see Figure 1).
+Disable Adobe’s native color management and enable OCIO color management (see Figure 1).
 
 1. Navigate to **Edit > Project Settings**.
 
@@ -122,7 +128,7 @@ Figure 3. Import Options Dialogue Box
 
 ## Footage Interpretation
 
-Once your source footage is imported, you need to apply the correct input transform to each clip (see Figure 4).
+After importing your footage, apply the correct input transform to each clip (see Figure 4).
 
 Steps to correctly interpret footage:
 
@@ -160,7 +166,7 @@ Figure 6. Effects panel view - EXtractoR plugin.
 
 
 
-**Double click** the Contact Sheet composition in your Project Pane.  In the Project Viewport, you will see a thumbnail representation of each layer in your EXR Files (see Figure 5).
+**Double click** the Contact Sheet composition in your Project Panel.  In the Project panel, you will see a thumbnail representation of each layer in your EXR Files (see Figure 5).
 
 
 <br />
@@ -171,7 +177,7 @@ Figure 5. Contact sheet composition view
 
 ## Exporting with the Correct Color Space
 
-To preserve color accuracy during delivery, configure your output settings to match the desired color space.
+Configure your output settings to match the desired color space.
 
 In the Output Module settings, go to the **Color** tab and select the appropriate output color space to match your project or delivery format (see Figure 7).
 
@@ -185,7 +191,7 @@ In the Output Module settings, go to the **Color** tab and select the appropriat
 
    This is typically the same as the original input footage or required delivery format.
 
-4. Start the render.
+4. Click **Render** to begin the export process.
    
 
 <br />
