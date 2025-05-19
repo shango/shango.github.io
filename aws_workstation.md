@@ -1,5 +1,6 @@
 ---
-title: aws-workstation
+title: Deploying a Remote VFX Workstation on AWS
+layout: page
 nav_order: 2
 ---
 

@@ -1,11 +1,12 @@
 ---
-title: exr-workflow
+title: Multi-channel EXR Files in Adobe After Effects 2025
+layout: page
 nav_order: 3
 ---
 
 
 {: .no_toc }
-# Multi-channel EXR Files in Adobe After Effects 2025: Importing, Compositing, and Exporting
+# Multi-channel EXR Files in Adobe After Effects 2025
 
 {: .no_toc }
 ## Introduction 
