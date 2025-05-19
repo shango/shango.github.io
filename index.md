@@ -10,10 +10,10 @@ nav_order: 1
 
 ## Contents
 
-1. **[Deploying a Remote Visual Effects Workstation on AWS](_pages/aws_workstation)**  
+1. **[Deploying a Remote Visual Effects Workstation on AWS](/aws_workstation)**  
     A step-by-step guide for setting up high-performance remote workstations on AWS, based on my extensive experience configuring these environments throughout my VFX career. This documentation demonstrates my ability to translate complex technical requirements into accessible instructions for creative professionals.
 
-2. **[Using Multi-channel EXR files in Adobe After Effects 2005](_pages/aces_workflow)**  
+2. **[Using Multi-channel EXR files in Adobe After Effects 2005](/aces_workflow)**  
     A technical workflow guide I created to help VFX team members efficiently work with multi-channel OpenEXR files in post-production. This document showcases my ability to bridge the gap between 3D animation pipelines and 2D compositing tools while maintaining color accuracy and workflow efficiency.
 
 ---
