@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
 # Technical Writing Samples
@@ -29,7 +30,7 @@ While working in VFX, I naturally gravitated toward creating documentation that 
 
 I love breaking down complicated systems into clear, accessible content. My documentation background includes working with Markdown, Google Workspace, and PDF formats, usually managed through Git. I currently showcase my writing on a GitHub Pages portfolio built with Jekyll.
 
-I've worked hands-on with Python, C, and Git, plus I've taken several college-level Computer Science courses. I'm planning to pursue a Master's in CS soon to build on this foundation.
+I've worked hands-on with Python, C, Javascript, SQL and Git, plus I've taken several college-level Computer Science courses. I'm planning to pursue a Master's in CS soon to build on this foundation.
 
 Right now, I'm looking for full-time technical writing roles, especially with teams working on:
 
