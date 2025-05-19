@@ -7,11 +7,21 @@ layout: home
 
 ---
 
+## Contents
+
+1. **[Deploying a Remote Visual Effects Workstation on AWS](_pages/aws_workstation)**  
+    A step-by-step guide for setting up high-performance remote workstations on AWS, based on my extensive experience configuring these environments throughout my VFX career. This documentation demonstrates my ability to translate complex technical requirements into accessible instructions for creative professionals.
+
+2. **[Using Multi-channel EXR files in Adobe After Effects 2005](_pages/aces_workflow)**  
+    A technical workflow guide I created to help VFX team members efficiently work with multi-channel OpenEXR files in post-production. This document showcases my ability to bridge the gap between 3D animation pipelines and 2D compositing tools while maintaining color accuracy and workflow efficiency.
+
+---
+
 ## About
 
 Technical Writer with VFX Industry Expertise
 
-I'm a technical writer with over a decade of experience documenting complex visual effects workflows. I bring a unique perspective that helps bridge the gap between creative teams and technical experts.
+I’m a former VFX artist now transitioning into technical writing, building on over a decade of experience documenting complex visual effects workflows. I bring a unique perspective that helps bridge the gap between creative teams and technical experts.
 
 My VFX journey started on Emmy Award-winning shows like Cartoon Network's Robot Chicken and eventually led to work on blockbusters including Transformers: Rise of the Beasts (2021), Captain America: Brave New World (2025), and Marvel's Thunderbolts. Recently, I was fortunate to be part of the Academy Award-nominated crew for Wicked (2025).
 
@@ -23,19 +33,11 @@ I've worked hands-on with Python, C, and Git, plus I've taken several college-le
 
 Right now, I'm looking for full-time technical writing roles, especially with teams working on:
 
-    Developer tools and platforms
-    Media technology solutions
-    VFX and creative software
+- Developer tools and platforms
+- Media technology solutions
+- VFX and creative software
 
 Let's connect if you need someone who can translate complex technical concepts into clear, friendly documentation - particularly in creative tech spaces.
-
-## Contents
-
-1. **[Deploying a Remote Visual Effects Workstation on AWS](_pages/aws_workstation)**  
-    A step-by-step guide for setting up high-performance remote workstations on AWS, based on my extensive experience configuring these environments throughout my VFX career. This documentation demonstrates my ability to translate complex technical requirements into accessible instructions for creative professionals.
-
-2. **[Using Multi-channel EXR files in Adobe After Effects 2005](_pages/aces_workflow)**  
-    A technical workflow guide I created to help VFX team members efficiently work with multi-channel OpenEXR files in post-production. This document showcases my ability to bridge the gap between 3D animation pipelines and 2D compositing tools while maintaining color accuracy and workflow efficiency.
 
 ---
 
