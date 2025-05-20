@@ -161,7 +161,7 @@ An Elastic IP provides a static public IP address, ensuring your workstation rem
 
 2. Click **Connect** at the top of the page.
 
-3. Select the **RDP client** tab.
+3. Select the **Remote Desktop Protocol (RDP) client** tab.
 
 4. Click **Get password** and upload your **.pem key file** when prompted.
 
