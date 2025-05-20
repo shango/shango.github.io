@@ -181,7 +181,7 @@ To enable GPU acceleration for your VFX applications:
 
 2. Execute the following commands to install the AWS Command Line Interface (CLI):
 
-   ```
+   ```bash
    Invoke-WebRequest -Uri "https://awscli.amazonaws.com/AWSCLIV2.msi" -OutFile "AWSCLIV2.msi"
    Start-Process msiexec.exe -Wait -ArgumentList "/i AWSCLIV2.msi"
    
@@ -189,7 +189,7 @@ To enable GPU acceleration for your VFX applications:
 
 3. Configure the AWS CLI with the following command:
 
-   ```PowerShell
+   ```bash
    aws configure
    ```
 
@@ -199,7 +199,7 @@ To enable GPU acceleration for your VFX applications:
 
 6. Download the NVIDIA drivers using the following command:
 
-   ```PowerShell
+   ```bash
    aws s3 cp --recursive s3://ec2-windows-nvidia-drivers/latest/ .
    ```
 
