@@ -20,7 +20,7 @@ By the end of this guide, you will have:
 - Provisioned a high-speed cache volume for media playback
 - Configured an Elastic IP for consistent remote access
 - Installed NVIDIA GRID drivers
-- Set up NICE DCV for secure remote access with audio support
+- Set up Amazon DCV for secure remote access with audio support
 - Optimized the instance for VFX workloads
 
 ## Who This Guide Is For
@@ -38,7 +38,7 @@ Before beginning, ensure you have:
 - An active AWS account with billing information set up
 - Administrator access to your AWS account
 - An internet connection with at least 15 Mbps download/upload speed
-- A local computer with permissions to install the NICE DCV client
+- A local computer with permissions to install the Amazon DCV client
 - Basic familiarity with Windows Server administration
 
 ## Request Quota Increases
@@ -118,7 +118,7 @@ After your quota increase is approved, you can launch your workstation instance:
    - Name your security group (e.g., "vfx-workstation-sg")
    - Ensure these inbound rules exist:
      - RDP (port 3389) from your IP address
-     - Custom TCP (port 8443) from your IP address for NICE DCV
+     - Custom TCP (port 8443) from your IP address for Amazon DCV
 
 7. Under **Configure storage**, set up your storage volumes:
 
@@ -226,13 +226,13 @@ To enable GPU acceleration for your VFX applications:
 
 8. Complete the wizard to format the drive.
 
-## Set Up NICE DCV for Remote Access
+## Set Up Amazon DCV for Remote Access
 
-NICE DCV provides a secure, high-performance remote desktop experience optimized for graphics-intensive applications:
+Amazon DCV provides a secure, high-performance remote desktop experience optimized for graphics-intensive applications:
 
 1. Open a web browser on your Windows instance and navigate to https://download.nice-dcv.com/
 
-2. Download the latest NICE DCV Server for Windows.
+2. Download the latest **Amazon DCV Server** for Windows.
 
 3. Run the installer and follow the installation wizard:
    - Accept the license agreement
@@ -244,7 +244,7 @@ NICE DCV provides a secure, high-performance remote desktop experience optimized
 
 5. Log back in using RDP.
 
-6. Open the Windows Start menu, search for "dcv", and open **NICE DCV Server Console**.
+6. Open the Windows Start menu, search for "dcv", and open **Amazon DCV Server Console**.
 
 7. In the **DCV Server Console**:
    - Go to the **Security** tab
@@ -253,17 +253,17 @@ NICE DCV provides a secure, high-performance remote desktop experience optimized
    - Click **Apply**
 
    ![DCV Server Console security settings](../images/dcv_security.png)
-   > *Figure 9. NICE DCV Server Console security settings*
+   > *Figure 9. Amazon DCV Server Console security settings*
 
-8. On your local computer, download and install the NICE DCV Client from https://download.nice-dcv.com/
+8. On your local computer, download and install the **Amazon DCV Client** from https://download.nice-dcv.com/
 
-9. Launch the DCV Client and connect to your instance:
+9. Launch the **Amazon DCV Client** and connect to your instance:
    - Enter your Elastic IP address followed by port 8443 (e.g., `your-elastic-ip:8443`)
    - Username: Administrator
    - Password: (your Windows administrator password)
 
    ![DCV Client connection dialog](../images/dcv_client_connect.png)
-   > *Figure 10. NICE DCV Client connection dialog*
+   > *Figure 10. Amazon DCV Client connection dialog*
 
 ## Enable Audio Playback
 
@@ -281,7 +281,7 @@ To ensure audio playback works properly in your remote session:
 
 6. Click **OK** to save changes.
 
-7. In the NICE DCV Client on your local machine:
+7. In the **Amazon DCV Client** on your local machine:
    - Click the settings icon in the top-right corner
    - Select **Settings**
    - Go to the **Audio** tab
@@ -291,7 +291,7 @@ To ensure audio playback works properly in your remote session:
 8. Test audio playback by opening a media file or browser page with audio content.
 
    ![DCV Client audio settings](../images/dcv_audio_settings.png)
-   > *Figure 11. NICE DCV Client audio settings*
+   > *Figure 11. Amazon DCV Client audio settings*
 
 ## Optimize the Workstation for VFX Performance
 
