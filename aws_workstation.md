@@ -184,7 +184,6 @@ To enable GPU acceleration for your VFX applications:
    ```bash
    Invoke-WebRequest -Uri "https://awscli.amazonaws.com/AWSCLIV2.msi" -OutFile "AWSCLIV2.msi"
    Start-Process msiexec.exe -Wait -ArgumentList "/i AWSCLIV2.msi"
-   
    ```
 
 3. Configure the AWS CLI with the following command:
