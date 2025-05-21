@@ -19,7 +19,6 @@ By the end of this guide, you will have:
 - Deployed a Windows Server AMI and configured system settings
 - Configured an Elastic IP for consistent remote access
 - Installed NVIDIA GRID drivers
-- Optimized the instance for VFX workloads
 
 ## Who This Guide Is For
 
