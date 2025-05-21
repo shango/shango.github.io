@@ -203,6 +203,8 @@ To enable GPU acceleration for your VFX applications:
 
 9. When installation is complete, restart your instance.
 
+The workstation is now setup and you can install VFX software.
+
 ## Cost Optimization Tips
 
 1. Stop your instance when not in use (you'll still pay for storage)
