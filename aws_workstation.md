@@ -38,7 +38,7 @@ Before beginning, ensure you have:
 - Administrator access to your AWS account
 - An internet connection with at least 15 Mbps download/upload speed
 - Basic familiarity with Windows Server administration
-- Familiarity with Windows RDP
+- Familiarity with Windows Remote Protocol (RDP)
 
 ## Request Quota Increases
 
