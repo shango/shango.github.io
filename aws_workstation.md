@@ -8,7 +8,7 @@ nav_order: 2
 
 ## Introduction
 
-As visual effects (VFX) studios shift toward more distributed and flexible production models, cloud-based workstations offer a practical alternative to traditional on-premises setups. This guide walks you through deploying a high-performance, production-ready compositing workstation on Amazon Web Services (AWS). Your workstation will be accessible remotely via Amazon DCV and ready for the installation of your preferred compositing software.
+As visual effects (VFX) studios shift toward more distributed and flexible production models, cloud-based workstations offer a practical alternative to traditional on-premises setups. This guide walks you through deploying a high-performance, production-ready compositing workstation on Amazon Web Services (AWS). Your workstation will be accessible remotely via Windows Remote Desktop Protocol (RDP) and ready for the installation of your preferred compositing software.
 
 ## What This Guide Covers
 
@@ -37,8 +37,8 @@ Before beginning, ensure you have:
 - An active AWS account with billing information set up
 - Administrator access to your AWS account
 - An internet connection with at least 15 Mbps download/upload speed
-- A local computer with permissions to install the Amazon DCV client
 - Basic familiarity with Windows Server administration
+- Familiarity with Windows RDP
 
 ## Request Quota Increases
 
