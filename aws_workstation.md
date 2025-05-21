@@ -27,8 +27,8 @@ This guide is intended for compositors, pipeline engineers, or technical directo
 
 - AWS administration
 - Windows VFX workstation requirements
-- Storage volume formatting
-- Windows PowerShell usage
+- Formatting Storage Volumes
+- Windows PowerShell
 
 ## Prerequisites
 
