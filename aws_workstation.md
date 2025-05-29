@@ -12,21 +12,21 @@ Visual effects studios increasingly use cloud-based workstations as an alternati
 
 Before you start, verify you have:
 
-• An active AWS account with billing information
-• Administrator access to your AWS account
-• An internet connection with at least 15 Mbps download and upload speed
-• Basic familiarity with Windows Server administration
-• Familiarity with Windows Remote Desktop Protocol (RDP)
+- An active AWS account with billing information
+- Administrator access to your AWS account
+- An internet connection with at least 15 Mbps download and upload speed
+- Basic familiarity with Windows Server administration
+- Familiarity with Windows Remote Desktop Protocol (RDP)
 
 This guide is for compositors, pipeline engineers, or technical directors with intermediate to advanced experience in AWS administration, Windows VFX workstation requirements, formatting storage volumes, and Windows PowerShell.
 
 After you complete this guide, you have:
 
-• Selected and launched an appropriate EC2 instance
-• Requested AWS service quota increases
-• Deployed a Windows Server AMI and configured system settings
-• Configured an Elastic IP for consistent remote access
-• Installed NVIDIA GRID drivers
+- Selected and launched an appropriate EC2 instance
+- Requested AWS service quota increases
+- Deployed a Windows Server AMI and configured system settings
+- Configured an Elastic IP for consistent remote access
+- Installed NVIDIA GRID drivers
 
 ## Request quota increases
 
@@ -86,11 +86,11 @@ After your quota increase is approved, you can launch your workstation instance.
 
 5. Under **Key pair (login)**, create a new key pair:
 
-   • Click **Create new key pair**.
-   • Enter a recognizable name. For example, enter vfx-workstation-keypair.
-   • Select **RSA** as the Key pair type.
-   • Choose **PEM** as the Private key file format.
-   • Click **Create key pair**.
+   - Click **Create new key pair**.
+   - Enter a recognizable name. For example, enter vfx-workstation-keypair.
+   - Select **RSA** as the Key pair type.
+   - Choose **PEM** as the Private key file format.
+   - Click **Create key pair**.
 
    ![Key pair creation dialog](../images/f7_create_key_pairs.png)
    > *Figure 7. Creating a new key pair*
@@ -99,16 +99,16 @@ After your quota increase is approved, you can launch your workstation instance.
 
 6. Under **Network settings**, click **Edit** and configure:
 
-   • Leave VPC and subnet at default values unless you have specific networking requirements.
-   • Set **Auto-assign public IP** to **Enable**.
-   • Under **Firewall (security groups)**, select **Create a new security group**.
-   • Name your security group. For example, enter vfx-workstation-sg.
-   • Ensure this inbound rule exists: RDP (port 3389) from your IP address.
+   - Leave VPC and subnet at default values unless you have specific networking requirements.
+   - Set **Auto-assign public IP** to **Enable**.
+   - Under **Firewall (security groups)**, select **Create a new security group**.
+   - Name your security group. For example, enter vfx-workstation-sg.
+   - Ensure this inbound rule exists: RDP (port 3389) from your IP address.
 
 7. Under **Configure storage**, set up your storage volume:
 
-   • Increase the **Root volume** (C: drive) size from 30 GB to **500 GB**.
-   • Leave the volume type as **gp3** (General Purpose SSD).
+   - Increase the **Root volume** (C: drive) size from 30 GB to **500 GB**.
+   - Leave the volume type as **gp3** (General Purpose SSD).
 
    ![Storage configuration with root volume](../images/f8_config_storage.png)
    > *Figure 8. Configured root volume*
@@ -150,9 +150,9 @@ Connect to the workstation using Windows Remote Desktop Protocol (RDP).
 5. Copy the decrypted password.
 
 6. Use an RDP client such as Remote Desktop Connection on Windows to connect to your instance using:
-   • The Elastic IP address you associated with your instance
-   • Username: Administrator
-   • Password: the decrypted password
+   - The Elastic IP address you associated with your instance
+   - Username: Administrator
+   - Password: the decrypted password
 
 7. Accept any security certificates when prompted.
 
@@ -197,13 +197,13 @@ The workstation is now set up and you can install VFX software.
 
 Consider these strategies to reduce costs:
 
-• Stop your instance when not in use. You still pay for storage but not compute resources.
-• Consider purchasing a Reserved Instance for long-term projects.
-• Monitor your AWS billing dashboard regularly.
-• Set up billing alerts to notify you of unexpected charges.
+- Stop your instance when not in use. You still pay for storage but not compute resources.
+- Consider purchasing a Reserved Instance for long-term projects.
+- Monitor your AWS billing dashboard regularly.
+- Set up billing alerts to notify you of unexpected charges.
 
 ## Related topics
 
-• AWS EC2 Instance Types (aws.amazon.com)
-• AWS Service Quotas User Guide (aws.amazon.com)
-• Windows Server on AWS (aws.amazon.com)
+- AWS EC2 Instance Types (aws.amazon.com)
+- AWS Service Quotas User Guide (aws.amazon.com)
+- Windows Server on AWS (aws.amazon.com)
