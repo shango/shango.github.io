@@ -46,9 +46,9 @@ Many GPU-enabled instances require quota increases before you can launch them.
 
 4. On the **Service Quotas** page, select **AWS services** from the left navigation panel.
 
-5. In the search bar, type "EC2" and select **Amazon Elastic Compute Cloud (Amazon EC2)** from the results.
+5. In the search bar, type **EC2** and select **Amazon Elastic Compute Cloud (Amazon EC2)** from the results.
 
-6. In the service quotas search bar, type "G instances" and select **Running On-Demand G and VT Instances**.
+6. In the service quotas search bar, type **G instances** and select **Running On-Demand G and VT Instances**.
 
    The **Applied account-level quota value** section displays your current quota.
 
@@ -74,7 +74,7 @@ After your quota increase is approved, you can launch your workstation instance.
 
 2. In the **Name and tags** section, enter a descriptive name for your instance. For example, enter VFX-Workstation-01.
 
-3. Under **Application and OS Images (Amazon Machine Image)**, click the **Quick Start** tab, search for "Windows," and select **Microsoft Windows Server 2025 Base**.
+3. Under **Application and OS Images (Amazon Machine Image)**, click the **Quick Start** tab, search for **Windows**, and select **Microsoft Windows Server 2025 Base**.
 
    ![Windows Server AMI selection with Windows Server 2025 highlighted](../images/f5_select_win_hl.png)
    > *Figure 5. Microsoft Windows Server 2025 Base selected*
@@ -121,7 +121,7 @@ The instance initializes in approximately five to 10 minutes.
 
 An Elastic IP provides a static public IP address that ensures your workstation remains accessible at the same address even after restarts.
 
-1. In the **EC2** console, select **Elastic IPs** from the left navigation panel under "Network & Security."
+1. In the **EC2** console, select **Elastic IPs** from the left navigation panel under **Network & Security**.
 
 2. Click **Allocate Elastic IP address**.
 
