@@ -103,7 +103,7 @@ After your quota increase is approved, you can launch your workstation instance.
    - Set **Auto-assign public IP** to **Enable**.
    - Under **Firewall (security groups)**, select **Create a new security group**.
    - Name your security group. For example, enter vfx-workstation-sg.
-   - Ensure this inbound rule exists: RDP (port 3389) from your IP address.
+   - Ensure this **inbound** rule exists: RDP (port 3389) from your IP address.
 
 7. Under **Configure storage**, set up your storage volume:
 
@@ -149,7 +149,7 @@ Connect to the workstation using Windows Remote Desktop Protocol (RDP).
 
 5. Copy the decrypted password.
 
-6. Use an RDP client such as Remote Desktop Connection on Windows to connect to your instance using:
+6. Use Microsoft's **Remote Desktop Connection (RDP)** on Windows or **Windows App** on Mac to connect to your instance using:
    - The Elastic IP address you associated with your instance
    - Username: Administrator
    - Password: the decrypted password
