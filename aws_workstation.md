@@ -64,7 +64,7 @@ Many GPU-enabled instances require quota increases before you can launch them.
 
 9. Provide a brief justification for your request—for example, enter Deploying VFX workstation for remote production—and submit the request.
 
-AWS typically processes quota increase requests within 24 to 48 hours. You receive an email notification when your request is approved.
+AWS typically processes quota increase requests within 24 to 48 hours. You'll receive an email notification when your request is approved.
 
 ## Launch and configure an EC2 Windows Server instance
 
