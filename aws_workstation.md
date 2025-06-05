@@ -6,7 +6,7 @@ nav_order: 2
 
 # Deploy a remote VFX workstation on AWS
 
-Visual effects studios increasingly use cloud-based workstations as an alternative to traditional on-premises setups. This guide shows you how to deploy a high-performance compositing workstation on Amazon Web Services (AWS). You can access your workstation remotely using Windows Remote Desktop Protocol (RDP) and install your preferred compositing software.
+Visual effects studios increasingly use cloud-based workstations as an alternative to traditional on-premises setups. This guide shows you how to deploy a high-performance compositing workstation on Amazon Web Services (AWS). You'll be able to access to your workstation remotely using Windows Remote Desktop Protocol (RDP) and install your preferred compositing software.
 
 ## Before you begin
 
