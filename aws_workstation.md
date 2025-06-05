@@ -55,9 +55,9 @@ Many GPU-enabled instances require quota increases before you can launch them.
    ![Service Quota display with current value highlighted](../images/f3_service_quota_hl.png)
    > *Figure 3. The current Service Quota value is highlighted*
 
-7. If your current quota is less than 32 vCPUs, click **Request increase at account level**.
+7. If your current quota is less than 8, click **Request increase at account level**.
 
-8. Set the **Increase quota value** to at least 32 vCPUs to support the g4dn.8xlarge instance.
+8. Set the **Increase quota value** to at least 8 to support the g4dn.8xlarge instance.
 
    ![Quota increase dialog with value set to 8](../images/f4_set_new_quota_hl.png)
    > *Figure 4. Setting quota increase value*
